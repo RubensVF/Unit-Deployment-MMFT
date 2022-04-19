@@ -1,6 +1,7 @@
 package com.bbva.mmft.dto.employes;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
@@ -14,42 +15,100 @@ public class EmployeDTO implements Serializable  {
 
 	/* Attributes section for the DTO */
 
-	/**
-	 * The name attribute
-	 */
+	private int number;
 	private String name;
+	private String department;
+	private String rfc;
+	private String email;
+	private String phone;
+	private String address;
+	private Date date;
+	private int status;
+	private float salary;
+	
 
-	/**
-	 * The surname attribute
-	 */
-	private String surname;
-
-	/**
-	 * Get the name attribute
-	 */
-	public String getName() {
-		return this.name;
+	public int getNumber() {
+		return number;
 	}
 
-	/**
-	 * Set the name attribute
-	 */
-	public void setName(final String name) {
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	/**
-	 * Get the surname attribute
-	 */
-	public String getSurname() {
-		return this.surname;
+	public String getDepartment() {
+		return department;
 	}
 
-	/**
-	 * Set the surname attribute
-	 */
-	public void setSurname(final String surname) {
-		this.surname = surname;
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+
+	public String getRfc() {
+		return rfc;
+	}
+
+	public void setRfc(String rfc) {
+		this.rfc = rfc;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public int getStatus() {
+		return status;
+	}
+
+	public void setStatus(int status) {
+		this.status = status;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 	/**
@@ -64,8 +123,15 @@ public class EmployeDTO implements Serializable  {
 		}
 		final EmployeDTO rhs = (EmployeDTO) obj;
 		return new EqualsBuilder().appendSuper(super.equals(obj))
+					.append(number, rhs.number)
 					.append(name, rhs.name)
-					.append(surname, rhs.surname)
+					.append(department, rhs.department)
+					.append(rfc, rhs.rfc)
+					.append(email, rhs.email)
+					.append(phone, rhs.phone)
+					.append(address, rhs.address)
+					.append(status, rhs.status)
+					.append(salary, rhs.salary)
 					.isEquals();
 	}
 
@@ -75,8 +141,15 @@ public class EmployeDTO implements Serializable  {
 	@Override
 	public int hashCode() {
 		return new HashCodeBuilder()
+			.append(this.number)
 			.append(this.name)
-			.append(this.surname)
+			.append(this.department)
+			.append(this.rfc)
+			.append(this.email)
+			.append(this.phone)
+			.append(this.address)
+			.append(this.status)
+			.append(this.salary)
 			.toHashCode();
 	}
 
@@ -87,8 +160,15 @@ public class EmployeDTO implements Serializable  {
 	@Override
 	public String toString() {
 		return new ToStringBuilder(this)
+			.append("number", number)
 			.append("name", name)
-			.append("surname", surname)
+			.append("department",department)
+			.append("rfc",rfc)
+			.append("email",email)
+			.append("phone",phone)
+			.append("address",address)
+			.append("status",status)
+			.append("salary",salary)
 			.toString();
 	}
 }
