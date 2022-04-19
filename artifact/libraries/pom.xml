@@ -12,5 +12,8 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>LIBRARIES-Unit-Deployment-MMFT</name>
-	<modules/>
+	<modules>
+		<module>MMFTR001</module>
+		<module>MMFTR001IMPL</module>
+	</modules>
 </project>
