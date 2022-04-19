@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <transaction xmlns="http://www.w3schools.com" transactionName="MMFTT001" application="MMFT" version="01" country="MX" language="ES">
-	<paramsIn/>
-	<paramsOut/>
+	<paramsIn>
+		<dto order="1" name="employeeIn" mandatory="0" package="com.bbva.mmft.dto.employes.EmployeDTO" artifactId="MMFTC001">
+			<parameter order="1" name="number" mandatory="0" type="Long" size="10"/>
+			<parameter order="2" name="name" mandatory="0" type="String" size="25"/>
+			<parameter order="3" name="department" mandatory="0" type="String" size="25"/>
+			<parameter order="4" name="rfc" mandatory="0" type="String" size="25"/>
+			<parameter order="5" name="email" mandatory="0" type="String" size="30"/>
+			<parameter order="6" name="phone" mandatory="0" type="String" size="15"/>
+			<parameter order="7" name="address" mandatory="0" type="String" size="35"/>
+			<parameter order="8" name="date" mandatory="0" type="Date (YYYY-MM-DD)" size="0"/>
+			<parameter order="9" name="status" mandatory="0" type="Long" size="10"/>
+			<parameter order="10" name="salary" mandatory="0" type="Double" size="10"/>
+		</dto>
+		<parameter order="2" name="tipo" mandatory="0" type="String" size="10"/>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="employeOut" mandatory="0" package="com.bbva.mmft.dto.employes.EmployeDTO" artifactId="MMFTC001">
+			<parameter order="1" name="number" mandatory="0" type="Long" size="10"/>
+			<parameter order="2" name="name" mandatory="0" type="String" size="25"/>
+			<parameter order="3" name="department" mandatory="0" type="String" size="25"/>
+			<parameter order="4" name="rfc" mandatory="0" type="String" size="25"/>
+			<parameter order="5" name="email" mandatory="0" type="String" size="30"/>
+			<parameter order="6" name="phone" mandatory="0" type="String" size="15"/>
+			<parameter order="7" name="address" mandatory="0" type="String" size="35"/>
+			<parameter order="8" name="date" mandatory="0" type="Date (YYYY-MM-DD)" size="0"/>
+			<parameter order="9" name="status" mandatory="0" type="Long" size="10"/>
+			<parameter order="10" name="salary" mandatory="0" type="Double" size="10"/>
+		</dto>
+	</paramsOut>
 	<description>Transaction employes</description>
 </transaction>
