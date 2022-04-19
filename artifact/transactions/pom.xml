@@ -12,5 +12,7 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>TRANSACTIONS-Unit-Deployment-MMFT</name>
-	<modules/>
+	<modules>
+		<module>MMFTT001-01-MX</module>
+	</modules>
 </project>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="MMFTT001" application="MMFT" version="01" country="MX" language="ES">
+	<paramsIn/>
+	<paramsOut/>
+	<description>Transaction employes</description>
+</transaction>
