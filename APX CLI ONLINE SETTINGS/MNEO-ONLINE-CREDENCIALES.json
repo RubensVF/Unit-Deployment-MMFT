@@ -1,0 +1,27 @@
+{
+	"uuaa": "MNEO",
+	"type": "online",
+	"content": [
+		{
+			"key": "mneodb.password",
+			"family": null,
+			"value": "jvcarlos13",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "mneodb.username",
+			"family": null,
+			"value": "jcarlos",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		
+	]
+}

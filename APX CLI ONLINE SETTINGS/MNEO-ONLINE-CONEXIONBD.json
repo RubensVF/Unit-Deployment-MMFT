@@ -1,0 +1,87 @@
+{
+	"uuaa": "MMFT",
+	"type": "online",
+	"content": [
+
+		{
+			"key": "database.db1.credentialPrefix",
+			"family": null,
+			"value": "mmftdb",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.driverClassName",
+			"family": null,
+			"value": "oracle.jdbc.driver.OracleDriver",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.jndi.url",
+			"family": null,
+			"value": "jdbc/ORA_LOCAL",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.name",
+			"family": null,
+			"value": "APXDB",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.pool.init",
+			"family": null,
+			"value": "1",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.pool.max",
+			"family": null,
+			"value": "20",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.pool.min",
+			"family": null,
+			"value": "15",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		},
+		{
+			"key": "database.db1.showSql",
+			"family": null,
+			"value": "false",
+			"des_value": null,
+			"description": null,
+			"dependent": null,
+			"action": "C",
+			"profiles": "DE"
+		}
+	]
+}
