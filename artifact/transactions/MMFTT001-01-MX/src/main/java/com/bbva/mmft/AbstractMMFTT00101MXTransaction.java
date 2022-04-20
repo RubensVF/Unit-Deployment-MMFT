@@ -20,10 +20,10 @@ public abstract class AbstractMMFTT00101MXTransaction extends AbstractTransactio
 	}
 
 	/**
-	 * Return value for input parameter tipo
+	 * Return value for input parameter operation
 	 */
-	protected String getTipo(){
-		return (String)this.getParameter("tipo");
+	protected String getOperation(){
+		return (String)this.getParameter("operation");
 	}
 
 	/**
@@ -31,5 +31,12 @@ public abstract class AbstractMMFTT00101MXTransaction extends AbstractTransactio
 	 */
 	protected void setEmployeout(final EmployeDTO field){
 		this.addParameter("employeOut", field);
+	}
+
+	/**
+	 * Set value for String output parameter message
+	 */
+	protected void setMessage(final String field){
+		this.addParameter("message", field);
 	}
 }

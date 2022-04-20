@@ -15,8 +15,8 @@
 	<properties>
 		<apx.core.online.version>7.5.5</apx.core.online.version>
 		<outputDirectoryDTOs>../../../target/dtos</outputDirectoryDTOs>
-		<outputDirectoryLibraries>../../../target/libraries</outputDirectoryLibraries>
-		<outputDirectoryTransactions>../../../target/transactions</outputDirectoryTransactions>
+		<outputDirectoryLibraries>../../../target/libs</outputDirectoryLibraries>
+		<outputDirectoryTransactions>../../../target/trx</outputDirectoryTransactions>
 		<jacoco.no.coverage>0.00</jacoco.no.coverage>
 		<jacoco.min.coverage>0.80</jacoco.min.coverage>
 		<jacoco.type.coverage>COMPLEXITY</jacoco.type.coverage>

@@ -13,7 +13,7 @@
 			<parameter order="9" name="status" mandatory="0" type="Long" size="10"/>
 			<parameter order="10" name="salary" mandatory="0" type="Double" size="10"/>
 		</dto>
-		<parameter order="2" name="tipo" mandatory="0" type="String" size="10"/>
+		<parameter order="2" name="operation" mandatory="0" type="String" size="50"/>
 	</paramsIn>
 	<paramsOut>
 		<dto order="1" name="employeOut" mandatory="0" package="com.bbva.mmft.dto.employes.EmployeDTO" artifactId="MMFTC001">
@@ -28,6 +28,7 @@
 			<parameter order="9" name="status" mandatory="0" type="Long" size="10"/>
 			<parameter order="10" name="salary" mandatory="0" type="Double" size="10"/>
 		</dto>
+		<parameter order="2" name="message" mandatory="0" type="String" size="50"/>
 	</paramsOut>
 	<description>Transaction employes</description>
 </transaction>
