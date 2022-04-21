@@ -3,7 +3,7 @@
 	"type": "online",
 	"content": [
 		{
-			"key": "mneodb.password",
+			"key": "mmftdb.password",
 			"family": null,
 			"value": "jvcarlos13",
 			"des_value": null,
@@ -13,7 +13,7 @@
 			"profiles": "DE"
 		},
 		{
-			"key": "mneodb.username",
+			"key": "mmftdb.username",
 			"family": null,
 			"value": "jcarlos",
 			"des_value": null,
