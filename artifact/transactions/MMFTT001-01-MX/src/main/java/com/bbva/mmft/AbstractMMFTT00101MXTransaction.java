@@ -2,6 +2,7 @@ package com.bbva.mmft;
 
 import com.bbva.elara.transaction.AbstractTransaction;
 import com.bbva.mmft.dto.employes.EmployeDTO;
+import java.util.List;
 
 /**
  * In this class, the input and output data is defined automatically through the setters and getters.
@@ -38,5 +39,12 @@ public abstract class AbstractMMFTT00101MXTransaction extends AbstractTransactio
 	 */
 	protected void setMessage(final String field){
 		this.addParameter("message", field);
+	}
+
+	/**
+	 * Set value for List<EmployeDTO> output parameter employeesListOut
+	 */
+	protected void setEmployeeslistout(final List<EmployeDTO> field){
+		this.addParameter("employeesListOut", field);
 	}
 }

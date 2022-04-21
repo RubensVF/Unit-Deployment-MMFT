@@ -1,0 +1,39 @@
+CREATE TABLE employees
+( employee_number number(10) NOT NULL,
+  employee_name varchar2(50) NOT NULL,
+  employee_department varchar2(50),
+  employee_RFC varchar2(20),
+  employee_email varchar2(20),
+  employee_phone varchar2(20),
+  employee_address varchar2(20),
+  employee_registration_date DATE,
+  employee_status number(10),
+  salary number(6),
+  CONSTRAINT employees_pk PRIMARY KEY (employee_number)
+);
+
+Crear un repositorio co Git local y despues subir el proyecto a GigHub y compartirmelo a Ju4n-C4rl05
+De igual manera subirlo a teams en ---Formacion----Entorno APX----Proyecto Final APX Online
+
+1.- Validar los campos RFC que sea valido
+2.- Validar campo email que sea valido
+3.- Validar campo phone que sea valido
+4.- Campo status se ocupara para hacer una baja logica 1= Activo 0=Baja
+6.- La Eliminacion de Registro tiene que ser una baja logica
+5.- Realizar una TXS para Alta, Actualizar, para Eliminar, para la consulta consultar por name y una consulta por todos los registros 
+7.- Solo se usara una Libreria para hacer todo el CRUD
+
+MCNH ====>> Samano Gonzalez Roberto
+MARC ====>> Perez Perez Jose Luis
+MTKD ====>> Cervantes Maldonado Julio Cesar
+MPBD ====>> Sandoval Martinez Xavier Alejandro
+MWII ====>> Dominguez Valles Raul
+MFIT ====>> Gonzalez Becerril Alexis 
+MOVW ====>> Vazquez Guzman Sebastian
+MMFT ====>> Velasquez Flores Ruben
+MFAD ====>> Castro Paez Gabriel Fernando
+MTCH ====>> Quino Reyex Jonathan Omar
+MDMG ====>> Nativitas Ponce Miguel Angel
+MAKZ ====>> Rodriguez Navarro Jose Alberto
+
+

@@ -1,5 +1,7 @@
 package com.bbva.mmft.lib.r001;
 
+import java.util.List;
+
 import com.bbva.mmft.dto.employes.EmployeDTO;
 
 /**
@@ -12,7 +14,8 @@ public interface MMFTR001 {
 	 */
 	public EmployeDTO executeInsert(EmployeDTO employe);
 	public EmployeDTO executeUpdate(EmployeDTO employe);
-	public void executeDeleteById(EmployeDTO employe);
+	public int executeDeleteById(EmployeDTO employe);
 	public EmployeDTO executeGetByName(EmployeDTO employe);
+	public List<EmployeDTO> executeGetAll();
 
 }
